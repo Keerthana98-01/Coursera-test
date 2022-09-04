@@ -3,7 +3,7 @@
   angular.module('LunchCheck',[])
   .controller('LunchCheckController',LunchCheckController);
 
-  function LunchCheckController($scope,$injector){
+  function LunchCheckController($scope){
     $scope.lunch_items="";
     $scope.message="";
     $scope.count_items=function (){
